@@ -1,4 +1,4 @@
-FROM openjdk:17.0.2-oracle
+FROM amazoncorretto:17.0.13
 ADD target/ping-app-1.0.0.jar ping-app-1.0.0.jar
 EXPOSE 8080
 
